@@ -24,9 +24,9 @@ var sky_sphere,ocean_sphere,
     height = 650, // int || window.innerHeight
     ratio = width / height;
 
-var ocean = new THREE.TextureLoader().load('static/ocean-test2.png')
-var oceanAlpha = new THREE.TextureLoader().load('static/ocean-alpha-2.png')
-var sky = new THREE.TextureLoader().load('static/skybox1.jpg')
+var ocean = new THREE.TextureLoader().load('assets/ocean-test2.png')
+var oceanAlpha = new THREE.TextureLoader().load('assets/ocean-alpha-2.png')
+var sky = new THREE.TextureLoader().load('assets/skybox1.jpg')
 
 const video = document.getElementById( 'video' );
 video.play();
